@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/tenanto-preview/portal/sw.js', { scope: '/tenanto-preview/portal/' })})}
