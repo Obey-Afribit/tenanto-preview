@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /tenanto-preview/reset-password/
+
+Sitemap: https://tenanto.co.za/tenanto-preview/sitemap.xml

@@ -4,15 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#0B1F3A" />
-    <meta name="description" content="Tenanto tenant portal - your rental, one tap away." />
+    <meta name="description" content="Tenanto tenant portal: your rental, one tap away." />
+    <!-- Portal pages are private to each tenant: keep them out of search
+         engines and never leak the /t/<token> path to other sites. -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Tenanto" />
     <link rel="icon" href="/tenanto-preview/portal/favicon.svg" type="image/svg+xml" />
-    <link rel="preconnect" href="https://rsms.me/" />
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="apple-touch-icon" href="/tenanto-preview/portal/icons/apple-touch-icon.png" />
     <title>Tenanto</title>
-    <script type="module" crossorigin src="/tenanto-preview/portal/assets/index-wcqI2EF1.js"></script>
-    <link rel="stylesheet" crossorigin href="/tenanto-preview/portal/assets/index-Dfw-2maN.css">
+    <script type="module" crossorigin src="/tenanto-preview/portal/assets/index-CpV4cS1Y.js"></script>
+    <link rel="stylesheet" crossorigin href="/tenanto-preview/portal/assets/index-Be8uDlYz.css">
   <link rel="manifest" href="/tenanto-preview/portal/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/tenanto-preview/portal/registerSW.js"></script></head>
   <body>
+    <noscript>Tenanto needs JavaScript to show your tenant portal.</noscript>
     <div id="root"></div>
   </body>
 </html>
